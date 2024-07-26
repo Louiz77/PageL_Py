@@ -1,0 +1,531 @@
+/* VAR/COR PRINCIPAL */
+:root {
+  --main-color: #00f349;
+}
+
+/* CONFIG/FONT/GERAL */
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+  list-style: none;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+/* MENU/NAV */
+
+nav
+{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+  transition: all .50s ease;
+  border-bottom: 1px solid #ddd;
+}
+
+/* TEXTO LOGO/STYLE/IMAGEM */
+.logo
+{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #004AAD;
+}
+
+.logo img
+{
+  width: 45px;
+  margin-right: 20px;
+}
+/* ---------------------------- */
+
+/* MENU ITEMS/STYLE */
+.navbarr
+{
+  display: flex;
+  margin-top: 15px;
+}
+
+.navbarr a
+{
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 5px 0;
+  margin: 0px 10px;
+  transition: all .50s ease;
+  color: #004AAD;
+  
+}
+
+.navbarr a:hover
+{
+  color: var(--main-color);
+}
+/* ---------------------------- */
+
+/*INDEX.HTML*/
+/* BOTÃO ENTRAR */
+.bn3637
+{
+  margin-bottom: 10px;
+  padding: 0.7rem 2rem;
+  font-weight: 70;
+  font-size: 18px;
+  text-align: center;
+  color: #2BC866;
+  border: 0.1rem solid transparent;
+  border-radius: 3rem;
+}
+
+.bn36
+{
+  border-color: #2BC866;
+}
+
+.bn36:hover
+{
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  transition: all .60s ease;
+  background-color: #1A9047;
+  color: white;
+}
+/* ---------------------------- */
+
+/* BOTÃO CADASTRAR*/
+.bn3638
+{
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 0.7rem 2rem;
+  font-weight: 70;
+  font-size: 18px;
+  text-align: center;
+  color: #2BC866;
+  border: 0.1rem solid transparent;
+  border-radius: 3rem;
+}
+
+.bn38
+{
+  border-color: transparent;
+  background-color: #1A9047;
+  color: white;
+}
+  
+.bn38:hover
+{
+  transition: all .60s ease;
+  color: #2BC866;
+  background-color: white;
+  border: 0.1rem solid #2BC866;
+
+}
+/* ---------------------------- */
+
+/* Area de Rastreio */
+.rastreio
+{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 25px;
+  color: #2BC866;
+}
+
+/* Area de Texto (Codigo Rastreio) */
+.inputcod
+{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 0.5rem;
+}
+
+/* Botao de envio (Codigo Rastreio) */
+.bn1
+{
+  background-color: gray;
+  margin-bottom: 10px;
+  padding: 0.7rem 2rem;
+  font-weight: 70;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+
+/* SVG Background */
+.container img
+{
+  width: 80%;
+  margin: 10%;
+  margin-top: 2%;
+}
+
+/*SOBRE.HTML*/
+/* AREA DE TEXTO */
+.rastreio-2
+{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 29px;
+  color: #2BC866;
+}
+.rastreio-2 p
+{
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.rastreio-2 h4{
+  text-align: center;
+  font-size: 30px;
+  color: #2BC866;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+/* ---------------------------- */
+
+/* GALERIA */
+div.galeria {
+  border: 0.1rem solid transparent;
+  margin: 50px;
+}
+
+div.galeria:hover {
+  border: 0.1rem solid #777;
+  border: 2.5px solid transparent;
+}
+
+div.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #2BC866;
+  font-weight: 700;
+}
+
+div.galeria p
+{
+  text-align: center;
+  font-size: 18px;
+}
+
+.responsive {
+  padding: 20px 6px;
+  float: left;
+  margin-left: 5%;
+  width: 24.99999%;
+}
+
+/* BOTÃO CADASTRE-SE AGORA*/
+.bn3639
+{
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+
+.bn39
+{
+  border-color: transparent;
+  background-color: #2BC866;
+  color: white;
+}
+  
+.bn39:hover
+{
+  transition: all .60s ease;
+  background-color: #1A9047;
+
+}
+/* ---------------------------- */
+
+/*PARCEIROS.HTML*/
+/* DIVISOR */
+.divider
+{
+  padding: 0.1%;
+}
+
+/* CONTAINER INFO */
+.container-info
+{
+  background-color: #2BC866;
+  padding-top: 12%;
+  padding-bottom: 30%;
+}
+
+/* IMAGEM/CONTAINER DE PARCEIROS */
+.container-info a
+{
+  background-color: #fff;
+  margin-left: 19%;
+  padding-left: 3.2%;
+  padding-top: 4%;
+  border: 0.1rem solid transparent;
+  border-radius: 2rem;
+  padding-right: 5.7%;
+}
+
+/* IMAGEM PARCEIROS*/
+.container-info img
+{
+  margin-left: 24px;
+}
+
+/* TEXTO MENOR*/
+.container-info p
+{
+  margin-left: 20%;
+  margin-right: 40%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+/* TEXTO TITULO */
+.container-info h2
+{
+  margin-left: 20%;
+  margin-right: 40%;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+/* IMAGEM ILUSTRAÇÃO_MULHER */
+.container-art
+{
+  margin-left: 60%;
+  margin-block: -300px;
+  max-height: 100%;
+  width: 25%;
+}
+
+/*AJUDA.HTML*/
+/* DIV HEADER COM IMAGEM E TEXTOS */
+.header 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+/* TEXTO HEADER */
+.header-texto
+{
+  flex: 0.5;
+  font-size: 22px;
+  color: #2BC866;
+  text-align: left;
+  margin-right: 21%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+/* TEXTO MENOR */
+.header-texto p
+{
+  color: black;
+  font-size: 19px;
+}
+
+/* DIV COM A IMAGEM DA HEADER */
+.header-imagem 
+{
+  flex: 0.5;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+/* PROPRIEDADES DA IMAGEM */
+.header-imagem img 
+{
+  max-width: 100%;
+  height: auto;
+}
+
+/* DIV COM OS CARDS INFORMATIVOS E BOTOES ESQUERDO-DIREITO */
+.card-container 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* PROPRIEDADES BOTÃO DIREITO E ESQUERDO */
+.card-botao 
+{
+  color: #1A9047;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* DIV COM OS CARDS INFORMATIVOS */
+.info-card 
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+/* CAIXA COM AS INFORMAÇÕES DENTRO DOS CARDS */
+.info-box 
+{
+  flex: 1;
+  border: 1px solid #2BC866;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3%;
+  padding-bottom: 9%;
+  margin: 5px 20px;
+  background-color: #ffffff;
+}
+
+/* ESPAÇAMENTO - ICONES DOS CARDS */
+.icon 
+{
+  margin-bottom: 10px;
+}
+
+/* TITULO DOS CARDS */
+.info-box h3 
+{
+  color: #2BC866;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+/* SUBTITULO E CONTEUDO DOS CARDS */
+.info-box p, ul 
+{
+  font-size: 14px;
+  color: #555555;
+  text-align: left;
+}
+
+/* LISTA/CONTEUDO DOS CARDS */
+.info-box li
+{
+  margin-top: 3%;
+}
+
+/* PROPRIEDADES DOS ICONES - CARDS */
+.info-box img
+{
+  width: 18%;
+  max-width: 1200px;
+  margin-bottom: 10%;
+}
+
+/*LOGIN.HTML*/
+
+.login-page 
+{
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form 
+{
+  position: absolute;
+  z-index: 1;
+  background: white;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input 
+{
+  background: whitesmoke;
+  border: 0.1rem solid #2BC866;
+  border-radius: 3rem;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button
+{
+  text-transform: uppercase;
+  outline: 0;
+  background: white;
+  width: 100%;
+  border: 0.1rem solid #2BC866;
+  border-radius: 3rem;
+  padding: 15px;
+  color: black;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  color: #2BC866;
+}
+.form button:hover,.form button:active,.form button:focus 
+{
+  transition: all .60s ease;
+  color: white;
+  background-color: #1A9047;
+}
+.form .message
+{
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a
+{
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form h1
+{
+  color: #1A9047;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 12%;
+}
+
+.form p
+{
+  color: #1A9047;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
